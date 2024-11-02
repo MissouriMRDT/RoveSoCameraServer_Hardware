@@ -1,0 +1,826 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f13dfbdc-b97e-48ed-8d75-87ddc5139bcb")
+	(paper "A4")
+	(lib_symbols
+		(symbol "analog_devices_gmsl:MAX96717GTJ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 25.908 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -4.9271 11.0856 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -4.9271 11.0856 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX96717GTJ-VY/16675118"
+				(at 0.508 28.956 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -4.9271 11.0856 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MAX96717GTJ_1_1"
+				(polyline
+					(pts
+						(xy 10.16 24.13) (xy -11.43 24.13) (xy -11.43 -27.94) (xy 10.16 -27.94) (xy 10.16 24.13)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 12.7 -15.24 180)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 21.59 0)
+					(length 2.54)
+					(name "PWDNB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 11.43 0)
+					(length 2.54)
+					(name "XRES"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 8.89 0)
+					(length 2.54)
+					(name "VDD18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "SIOP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "SION"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 6.35 0)
+					(length 2.54)
+					(name "CAP_VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 3.81 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 1.27 0)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 15.24 180)
+					(length 2.54)
+					(name "MFP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 12.7 180)
+					(length 2.54)
+					(name "MFP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -3.81 0)
+					(length 2.54)
+					(name "D2P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 22.86 180)
+					(length 2.54)
+					(name "MFP0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -6.35 0)
+					(length 2.54)
+					(name "D2N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "MFP5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "MFP6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -8.89 0)
+					(length 2.54)
+					(name "D3P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -11.43 0)
+					(length 2.54)
+					(name "D3N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -13.97 0)
+					(length 2.54)
+					(name "D0P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -16.51 0)
+					(length 2.54)
+					(name "D0N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -19.05 0)
+					(length 2.54)
+					(name "CKP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -21.59 0)
+					(length 2.54)
+					(name "CKN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -24.13 0)
+					(length 2.54)
+					(name "D1P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 20.32 180)
+					(length 2.54)
+					(name "MFP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -26.67 0)
+					(length 2.54)
+					(name "D1N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "MFP7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "MFP8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 17.78 180)
+					(length 2.54)
+					(name "MFP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "MFP9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.8529 -2.8844 180)
+					(length 2.54)
+					(name "MFP10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 19.05 0)
+					(length 2.54)
+					(name "V_REF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 16.51 0)
+					(length 2.54)
+					(name "X1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 13.97 0)
+					(length 2.54)
+					(name "X2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "analog_devices_gmsl:MAX96717GTJ")
+		(at 76.2 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be840d7f-d167-4c5f-827a-4678e263e749")
+		(property "Reference" "U1"
+			(at 75.6414 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 75.6414 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:TQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm"
+			(at 71.2729 46.0644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX96717GTJ-VY/16675118"
+			(at 76.708 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.2729 46.0644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8545bcfb-e469-4b57-816a-2dbc6d8d7085")
+		)
+		(pin "12"
+			(uuid "3a10b9cc-401a-479b-a9ae-a6bba9b9605c")
+		)
+		(pin "11"
+			(uuid "3c0d2b29-bf4b-4218-af95-e1ab543aa201")
+		)
+		(pin "14"
+			(uuid "68087542-559e-47ca-9266-2a4cd4b294b9")
+		)
+		(pin "16"
+			(uuid "435abc1b-3ddc-4778-bdb2-7db0ae2b0fe4")
+		)
+		(pin "15"
+			(uuid "20479b14-3577-47e1-931f-1569b834bc75")
+		)
+		(pin "18"
+			(uuid "66e26b63-66b1-4de4-8b47-2a65931d3741")
+		)
+		(pin "20"
+			(uuid "2c1f8efb-6c48-4476-98bf-fcd70769c599")
+		)
+		(pin "23"
+			(uuid "ff310bea-7149-46d9-a13c-ea9da7d0be77")
+		)
+		(pin "17"
+			(uuid "d46fa99c-6aaf-43b8-83cb-694574b4b3ad")
+		)
+		(pin "29"
+			(uuid "8b4fbac9-f074-49df-9ef6-c87075be8f3c")
+		)
+		(pin "24"
+			(uuid "fad5727c-55ce-4909-8fe3-4d918603fdf8")
+		)
+		(pin "19"
+			(uuid "c2be89df-a0b1-4459-9994-68c33673ffef")
+		)
+		(pin "2"
+			(uuid "6c10d4fd-ffc0-44b9-b4fa-0410b839d78a")
+		)
+		(pin ""
+			(uuid "d7cf0d04-8153-4d07-a84f-c2bc377b6372")
+		)
+		(pin "25"
+			(uuid "9ec14b7d-680f-4890-9537-3d60d9b05cd8")
+		)
+		(pin "3"
+			(uuid "8bdd496c-dc5f-45f3-a753-73b21e01ee57")
+		)
+		(pin "27"
+			(uuid "7b094e7a-c5e5-48bc-853a-683490c7dabc")
+		)
+		(pin "10"
+			(uuid "c6b0f358-7aa5-427d-9322-47febea41257")
+		)
+		(pin "13"
+			(uuid "1fafe938-30b6-4c31-83ba-6f9fe688cb35")
+		)
+		(pin "21"
+			(uuid "949ee897-3bbc-4a74-8908-d09881cfd441")
+		)
+		(pin "26"
+			(uuid "be2310bc-f578-4fbf-aa97-fef50ac965a9")
+		)
+		(pin "22"
+			(uuid "3cec9b45-6b3e-4223-977e-6d5717a4937b")
+		)
+		(pin "28"
+			(uuid "cac6938b-1ef9-4d79-b76c-faf41d2cb90f")
+		)
+		(pin "9"
+			(uuid "f844b76c-a786-41f5-a827-1555da963a1e")
+		)
+		(pin "32"
+			(uuid "fad8bab0-6efd-4ab7-8f8e-c9650aa5ac0d")
+		)
+		(pin "31"
+			(uuid "3b3825e9-4e54-4cf5-9fff-e9885065e19f")
+		)
+		(pin "5"
+			(uuid "5d045a28-44eb-45e5-8878-89def3c61d4f")
+		)
+		(pin "30"
+			(uuid "3605ae4a-78a6-485f-bf8f-a332ffda9402")
+		)
+		(pin "6"
+			(uuid "58c41ec6-4198-4367-8d08-2384e57b88bf")
+		)
+		(pin "4"
+			(uuid "2059a998-a201-4c61-aa9f-4e2e551b6c13")
+		)
+		(pin "8"
+			(uuid "65426c52-8582-4871-9ed8-9e64c031c7a1")
+		)
+		(pin "7"
+			(uuid "b78d7eca-90a7-408a-a5eb-f58ce2bb7945")
+		)
+		(instances
+			(project ""
+				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/0a3de32e-46b4-48e6-995c-cb183fcb90bf"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

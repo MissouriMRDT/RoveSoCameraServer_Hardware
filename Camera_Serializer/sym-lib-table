@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "analog_devices_gmsl")(type "KiCad")(uri "C:/GitHub/MRDT/Electrical/RoveSoCameraServer_Hardware/lib/Symbols/analog_devices_gmsl.kicad_sym")(options "")(descr ""))
+)

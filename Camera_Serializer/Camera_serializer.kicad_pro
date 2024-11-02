@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RoveSoCameraServer.kicad_pro",
+    "filename": "Camera_serializer.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -576,12 +576,12 @@
   },
   "sheets": [
     [
-      "5166edb3-930f-40cc-84dd-4607fa7b7ad4",
+      "ebaf1619-da94-4b8e-b57a-a386470e666e",
       "Root"
     ],
     [
-      "8e33e346-747b-4635-9f57-fb15ddb842d0",
-      "Power"
+      "0a3de32e-46b4-48e6-995c-cb183fcb90bf",
+      "serializer"
     ]
   ],
   "text_variables": {}
