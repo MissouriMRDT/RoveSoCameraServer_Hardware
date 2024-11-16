@@ -2,4 +2,7 @@
   (version 7)
   (lib (name "analog_devices_gmsl")(type "KiCad")(uri "C:/GitHub/MRDT/Electrical/RoveSoCameraServer_Hardware/lib/Symbols/analog_devices_gmsl.kicad_sym")(options "")(descr ""))
   (lib (name "7-2287906-0")(type "KiCad")(uri "C:/GitHub/MRDT/Electrical/RoveSoCameraServer_Hardware/lib/Symbols/7-2287906-0.kicad_sym")(options "")(descr ""))
+  (lib (name "SVC75C3A48A2-25.000M")(type "KiCad")(uri "C:/GitHub/MRDT/Electrical/RoveSoCameraServer_Hardware/lib/Symbols/SVC75C3A48A2-25.000M.kicad_sym")(options "")(descr ""))
+  (lib (name "831056269")(type "KiCad")(uri "C:/GitHub/MRDT/Electrical/RoveSoCameraServer_Hardware/lib/Symbols/831056269.kicad_sym")(options "")(descr ""))
+  (lib (name "EB2532YA08-25.000M_TR")(type "KiCad")(uri "C:/GitHub/MRDT/Electrical/RoveSoCameraServer_Hardware/lib/Symbols/EB2532YA08-25.000M_TR.kicad_sym")(options "")(descr ""))
 )
