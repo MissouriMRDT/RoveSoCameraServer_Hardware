@@ -582,6 +582,10 @@
     [
       "0a3de32e-46b4-48e6-995c-cb183fcb90bf",
       "serializer"
+    ],
+    [
+      "602efbe5-ec9c-4bfc-a3ee-5e96e644a054",
+      "Power"
     ]
   ],
   "text_variables": {}
