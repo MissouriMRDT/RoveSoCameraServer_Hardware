@@ -3433,7 +3433,7 @@
 	)
 	(text "Connect to exposed pad of chip"
 		(exclude_from_sim no)
-		(at 77.978 76.708 0)
+		(at 112.522 76.962 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3454,7 +3454,7 @@
 	)
 	(text "Cinx1 (from MAX96717GTJ datasheet): 3pF\nCinx2 (from MAX96717GTJ datasheet): 1pF\nC_trace (estimated): 2pF each\nDesired load capacitance (from crystal datasheet): 8pF\n\nCx1total: Cinx1 + C_trace + CL1\nCx2total: Cinx2 + C_trace + CL2\nCL = (Cx1total * Cx2total) / (Cx1total + Cx2total)\n\nCL1 = 13pF\nCL2 = 13pF\nCx1total = 18pF\nCx2toal = 16pF\nCL = 8.5pF"
 		(exclude_from_sim no)
-		(at 38.862 36.576 0)
+		(at 37.846 30.988 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3465,7 +3465,7 @@
 	)
 	(text "Connect crystal and caps \nas close as possible to \nX1 and X2 pins"
 		(exclude_from_sim no)
-		(at 86.36 62.23 0)
+		(at 95.758 61.468 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5637,7 +5637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1030_CBR_SMD.pdf"
+		(property "Datasheet" "~"
 			(at 72.39 62.23 0)
 			(effects
 				(font
@@ -6403,7 +6403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1030_CBR_SMD.pdf"
+		(property "Datasheet" "~"
 			(at 44.45 62.23 0)
 			(effects
 				(font
