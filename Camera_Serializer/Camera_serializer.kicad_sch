@@ -15,8 +15,18 @@
 		)
 		(uuid "2af4b6c8-43f2-4dfa-8f96-7069eb985ca8")
 	)
+	(bus
+		(pts
+			(xy 127 129.54) (xy 144.78 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a27e4b5-7c45-4c76-ba20-829009b6ccac")
+	)
 	(hierarchical_label "CSI"
-		(shape input)
+		(shape output)
 		(at 127 127 180)
 		(fields_autoplaced yes)
 		(effects
@@ -26,6 +36,30 @@
 			(justify right)
 		)
 		(uuid "6680684e-70f4-4b72-9e0f-d4f1bb491aaf")
+	)
+	(hierarchical_label "I2C"
+		(shape input)
+		(at 127 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "683b7ad4-9239-42ea-8ebc-e21cb21a3aab")
+	)
+	(hierarchical_label "I2C"
+		(shape output)
+		(at 144.78 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d8beee7-77c9-4694-b4bb-6a9719767716")
 	)
 	(sheet
 		(at 144.78 124.46)
@@ -57,7 +91,7 @@
 				(justify left top)
 			)
 		)
-		(pin "CSI" output
+		(pin "CSI" input
 			(at 144.78 127 180)
 			(effects
 				(font

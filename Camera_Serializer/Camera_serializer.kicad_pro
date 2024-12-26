@@ -428,7 +428,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "CameraServer_Symbols"
+    ]
   },
   "meta": {
     "filename": "Camera_serializer.kicad_pro",
