@@ -5637,7 +5637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1030_CBR_SMD.pdf"
 			(at 72.39 62.23 0)
 			(effects
 				(font
@@ -6403,7 +6403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1030_CBR_SMD.pdf"
 			(at 44.45 62.23 0)
 			(effects
 				(font

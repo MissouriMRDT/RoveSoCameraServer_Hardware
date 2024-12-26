@@ -2238,7 +2238,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 109.22 87.63 0)
 			(effects
 				(font
@@ -2247,7 +2247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-polymer-esd-suppressor-pesd-catalog-datasheet?assetguid=5186ff3a-844f-4b9e-926a-f506c7d3d551"
 			(at 109.22 87.63 0)
 			(effects
 				(font

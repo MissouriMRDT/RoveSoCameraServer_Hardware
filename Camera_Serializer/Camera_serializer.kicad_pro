@@ -586,6 +586,10 @@
     [
       "602efbe5-ec9c-4bfc-a3ee-5e96e644a054",
       "Power"
+    ],
+    [
+      "5d979516-8bb1-4842-81a3-40edfcd36cc3",
+      "csi"
     ]
   ],
   "text_variables": {}

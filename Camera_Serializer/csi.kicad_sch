@@ -1,0 +1,262 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4b852a8b-e82a-4a97-b84e-329f21ba51ce")
+	(paper "A4")
+	(lib_symbols)
+	(bus_entry
+		(at 90.17 106.68)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0528737c-e2c6-4390-bacc-345bca656fdc")
+	)
+	(bus_entry
+		(at 90.17 91.44)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0535537e-c686-45fe-ade3-ecd2651f86f5")
+	)
+	(bus_entry
+		(at 90.17 93.98)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b59ba84-405c-4fbb-b71a-c7dbc1024808")
+	)
+	(bus_entry
+		(at 90.17 104.14)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "358a6d34-3ad5-4221-ab81-3e52b571cef2")
+	)
+	(bus_entry
+		(at 90.17 96.52)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4790d323-c41d-420c-8654-b96cea8d73f6")
+	)
+	(bus_entry
+		(at 90.17 99.06)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ec47c63-9cff-4d6d-ae02-2c61e02d8b93")
+	)
+	(bus_entry
+		(at 90.17 101.6)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da34d75-7996-4a1b-9131-42d405cbb631")
+	)
+	(bus_entry
+		(at 90.17 88.9)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad2379bb-17c1-4cef-8f83-4d2d18d211ca")
+	)
+	(bus
+		(pts
+			(xy 90.17 93.98) (xy 90.17 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0abb0569-50ec-4b4a-b754-f009550064ba")
+	)
+	(bus
+		(pts
+			(xy 90.17 96.52) (xy 90.17 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ccbcd83-ba44-4a08-9515-b993f250b882")
+	)
+	(bus
+		(pts
+			(xy 90.17 104.14) (xy 90.17 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23af2b6b-07c2-4d0c-a0e3-dd8815aeee0b")
+	)
+	(wire
+		(pts
+			(xy 92.71 109.22) (xy 104.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "326d6e5c-76b5-4b7e-8fa3-4af6c6cdb2f2")
+	)
+	(wire
+		(pts
+			(xy 92.71 96.52) (xy 104.14 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38606fef-bd65-449a-8af7-6169ddfa4bdc")
+	)
+	(wire
+		(pts
+			(xy 92.71 101.6) (xy 104.14 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b2a65a-9e67-4b3c-86ef-dc014fe1b8bf")
+	)
+	(wire
+		(pts
+			(xy 92.71 91.44) (xy 104.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64509e9e-cb62-4e82-abac-8437ef43ba28")
+	)
+	(bus
+		(pts
+			(xy 90.17 88.9) (xy 90.17 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69ce13a8-e17e-42d0-9a47-f7da26808f04")
+	)
+	(wire
+		(pts
+			(xy 92.71 106.68) (xy 104.14 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e7ca9e2-7870-45fc-8567-b1ccfa7a8c79")
+	)
+	(bus
+		(pts
+			(xy 78.74 86.36) (xy 90.17 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b932ba1-8227-40f5-b32a-f0fa220d4256")
+	)
+	(wire
+		(pts
+			(xy 92.71 104.14) (xy 104.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7015d67-a951-4578-8cbd-77e753b7d0e7")
+	)
+	(bus
+		(pts
+			(xy 90.17 101.6) (xy 90.17 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b20b8c-ab62-48c9-9db8-f69fa645508c")
+	)
+	(bus
+		(pts
+			(xy 90.17 99.06) (xy 90.17 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5db4a5f-1b08-4c8e-b69e-d33f8b8bf754")
+	)
+	(wire
+		(pts
+			(xy 92.71 99.06) (xy 104.14 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8a2f50f-fdc5-457b-bf78-0ed5203e7477")
+	)
+	(bus
+		(pts
+			(xy 90.17 86.36) (xy 90.17 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5207876-b17c-4ad1-b72a-076455b8805f")
+	)
+	(wire
+		(pts
+			(xy 92.71 93.98) (xy 104.14 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f69eb7e5-64cb-492a-8b15-658f054f6ddd")
+	)
+	(bus
+		(pts
+			(xy 90.17 91.44) (xy 90.17 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f757ab12-6892-4b12-b0d8-060437737c7c")
+	)
+	(hierarchical_label "CSI"
+		(shape output)
+		(at 78.74 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7094e4fd-41da-4fd2-b9a6-ebbc1fa26bb5")
+	)
+)
