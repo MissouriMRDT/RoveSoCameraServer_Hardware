@@ -7,17 +7,7 @@
 	(lib_symbols)
 	(bus
 		(pts
-			(xy 127 127) (xy 144.78 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2af4b6c8-43f2-4dfa-8f96-7069eb985ca8")
-	)
-	(bus
-		(pts
-			(xy 127 129.54) (xy 144.78 129.54)
+			(xy 100.33 85.852) (xy 114.3 85.852)
 		)
 		(stroke
 			(width 0)
@@ -25,45 +15,29 @@
 		)
 		(uuid "6a27e4b5-7c45-4c76-ba20-829009b6ccac")
 	)
-	(hierarchical_label "CSI"
-		(shape output)
-		(at 127 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(bus
+		(pts
+			(xy 100.33 83.312) (xy 114.3 83.312)
 		)
-		(uuid "6680684e-70f4-4b72-9e0f-d4f1bb491aaf")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3aacdd9-f9dc-41c9-97d0-dbba00a4f7af")
 	)
-	(hierarchical_label "I2C"
-		(shape input)
-		(at 127 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 138.43 83.312) (xy 148.59 83.312)
 		)
-		(uuid "683b7ad4-9239-42ea-8ebc-e21cb21a3aab")
-	)
-	(hierarchical_label "I2C"
-		(shape output)
-		(at 144.78 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "7d8beee7-77c9-4694-b4bb-6a9719767716")
+		(uuid "de4ed06a-38cc-4e46-93d1-b22aa04f8109")
 	)
 	(sheet
-		(at 144.78 124.46)
-		(size 20.32 10.16)
+		(at 114.3 80.772)
+		(size 24.13 10.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -74,7 +48,7 @@
 		)
 		(uuid "0a3de32e-46b4-48e6-995c-cb183fcb90bf")
 		(property "Sheetname" "serializer"
-			(at 144.78 123.7484 0)
+			(at 114.3 80.0604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83,7 +57,7 @@
 			)
 		)
 		(property "Sheetfile" "serializer.kicad_sch"
-			(at 144.78 135.2046 0)
+			(at 114.3 91.5166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -91,15 +65,35 @@
 				(justify left top)
 			)
 		)
-		(pin "CSI" input
-			(at 144.78 127 180)
+		(pin "SIOP_COAX" output
+			(at 138.43 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dba6dab3-7ec3-4f1d-92af-467998e636bb")
+		)
+		(pin "I2C{I2C}" output
+			(at 114.3 85.852 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0928847c-de11-4864-855a-ed274a0be89f")
+			(uuid "96c9a0e5-e6c6-4983-a929-2eab972fc655")
+		)
+		(pin "CSI{CSI}" output
+			(at 114.3 83.312 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ade819ba-741c-48b0-95df-465285c2dc62")
 		)
 		(instances
 			(project "Camera_serializer"
@@ -110,7 +104,7 @@
 		)
 	)
 	(sheet
-		(at 106.68 124.46)
+		(at 80.01 80.772)
 		(size 20.32 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -122,7 +116,7 @@
 		)
 		(uuid "5d979516-8bb1-4842-81a3-40edfcd36cc3")
 		(property "Sheetname" "csi"
-			(at 106.68 123.7484 0)
+			(at 80.01 80.0604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -131,13 +125,33 @@
 			)
 		)
 		(property "Sheetfile" "csi.kicad_sch"
-			(at 106.68 135.2046 0)
+			(at 80.01 91.5166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "CSI" output
+			(at 100.33 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0b474d50-efc4-4091-a41c-989e7d1d3065")
+		)
+		(pin "I2C" input
+			(at 100.33 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b8a428ec-e581-44d4-ac6d-2a67cd0d3d6e")
 		)
 		(instances
 			(project "Camera_serializer"
@@ -148,7 +162,7 @@
 		)
 	)
 	(sheet
-		(at 148.59 102.87)
+		(at 148.59 81.28)
 		(size 20.32 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -159,8 +173,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "602efbe5-ec9c-4bfc-a3ee-5e96e644a054")
-		(property "Sheetname" "Power"
-			(at 148.59 102.1584 0)
+		(property "Sheetname" "GMSL_Connector"
+			(at 148.59 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -168,8 +182,56 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Power.kicad_sch"
-			(at 148.59 113.6146 0)
+		(property "Sheetfile" "GMSL_Connector.kicad_sch"
+			(at 148.59 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SIOP_COAX" output
+			(at 148.59 83.312 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c12835e1-6043-4a52-9f35-c9b04fe133d3")
+		)
+		(instances
+			(project "Camera_serializer"
+				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 81.28)
+		(size 20.32 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aa1b48ff-d467-42b0-a250-5333a1eca37c")
+		(property "Sheetname" "power_converters"
+			(at 184.15 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_converters.kicad_sch"
+			(at 184.15 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -180,7 +242,7 @@
 		(instances
 			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e"
-					(page "3")
+					(page "5")
 				)
 			)
 		)

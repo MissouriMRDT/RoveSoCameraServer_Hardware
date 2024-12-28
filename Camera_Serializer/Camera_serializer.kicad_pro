@@ -427,7 +427,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "CameraServer_Footprints"
+    ],
     "pinned_symbol_libs": [
       "CameraServer_Symbols"
     ]
@@ -587,11 +589,15 @@
     ],
     [
       "602efbe5-ec9c-4bfc-a3ee-5e96e644a054",
-      "Power"
+      "GMSL_Connector"
     ],
     [
       "5d979516-8bb1-4842-81a3-40edfcd36cc3",
       "csi"
+    ],
+    [
+      "aa1b48ff-d467-42b0-a250-5333a1eca37c",
+      "power_converters"
     ]
   ],
   "text_variables": {}

@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "a9c4bec0-2fc2-4a69-9767-6fb308f32b5e")
+	(uuid "52186210-f631-4934-8325-654da6871f5c")
 	(paper "A4")
 	(lib_symbols
 		(symbol "CameraServer_Symbols:F32Q-1A7H1-11022"
