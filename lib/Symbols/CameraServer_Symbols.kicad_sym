@@ -410,7 +410,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at -5.08 31.242 0)
+			(at -1.27 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -428,7 +428,7 @@
 			)
 		)
 		(property "Footprint" "CameraServer_Footprints:F32Q-1A7H1-11022"
-			(at -0.254 36.322 0)
+			(at 0.508 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -456,7 +456,7 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 0.254 32.258 0)
+			(at 4.064 33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -466,7 +466,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 34.29 0)
+			(at 0.762 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -476,7 +476,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "2mm"
-			(at 0 40.64 0)
+			(at 0 43.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -486,7 +486,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Amphenol"
-			(at -0.762 39.116 0)
+			(at 0 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -497,8 +497,8 @@
 		)
 		(symbol "F32Q-1A7H1-11022_0_0"
 			(rectangle
-				(start -5.08 -27.94)
-				(end 5.08 30.48)
+				(start -5.08 35.56)
+				(end 5.08 -27.94)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -899,6 +899,44 @@
 					(effects
 						(font
 							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "F32Q-1A7H1-11022_1_1"
+			(pin passive line
+				(at -10.16 30.48 0)
+				(length 5.08)
+				(name "SH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 33.02 0)
+				(length 5.08)
+				(name "SH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH2"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)

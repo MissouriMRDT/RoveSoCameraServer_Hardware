@@ -5679,7 +5679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Snapeda:RGT0016C"
+		(property "Footprint" "CameraServer_Footprints:TPS62133RGTR"
 			(at 66.04 142.24 0)
 			(effects
 				(font
