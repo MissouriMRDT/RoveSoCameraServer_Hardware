@@ -1,0 +1,236 @@
+(footprint "EB2532YA08-25.000M_TR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "EB2532YA08-25.000M TR-2")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "fc3dd33a-5601-447c-98b9-f12eaf62dcbc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "EB2532YA08-25.000M_TR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5b537dc9-7c4d-42da-aa43-3d6d513ec7ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7343c83-33e8-4b83-b6f0-2d5a285a21ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "111c8f83-fc1a-4071-b16d-270a9ec67bb2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5306cee-2f63-4d11-9862-70cacb184841")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -1.05)
+		(end -2 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d7bea3f-776f-458f-8105-4ae3bc86174f")
+	)
+	(fp_line
+		(start -1.9 -1.05)
+		(end -1.9 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20fd3134-4315-41fb-8a0d-b021f5480bde")
+	)
+	(fp_arc
+		(start -2 -1.05)
+		(mid -1.95 -1.1)
+		(end -1.9 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9abb0f6-3d77-4b39-9403-5a2af8702858")
+	)
+	(fp_arc
+		(start -1.9 -1.05)
+		(mid -1.95 -1)
+		(end -2 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "24396430-5263-4bf1-85b0-3357034879b2")
+	)
+	(fp_line
+		(start -2.5 -2)
+		(end -2.5 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "537e9371-50a6-4dad-940e-de0a1791b36e")
+	)
+	(fp_line
+		(start -2.5 2)
+		(end 2.5 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b951ea4e-77e1-4642-9219-6de7eb53ba18")
+	)
+	(fp_line
+		(start 2.5 -2)
+		(end -2.5 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "414a1600-be83-4898-bb50-6a3fdd2510b0")
+	)
+	(fp_line
+		(start 2.5 2)
+		(end 2.5 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "556e314d-1654-4aae-abfd-44461d11d556")
+	)
+	(fp_line
+		(start -1.25 -1.6)
+		(end -1.25 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d6e2055b-6693-4b49-a8c3-551c390aba0b")
+	)
+	(fp_line
+		(start -1.25 1.6)
+		(end 1.25 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d9dcea54-78fe-4f8e-9696-4fc0e0e69e43")
+	)
+	(fp_line
+		(start 1.25 -1.6)
+		(end -1.25 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ebe5214-b57f-4ca4-ac85-6981c42f9d98")
+	)
+	(fp_line
+		(start 1.25 1.6)
+		(end 1.25 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37f4aada-09c2-4796-85a6-d35ee59fab6a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c4d1ce94-e6c9-4c61-b93f-5efcd1771586")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.85 -1.05)
+		(size 1.3 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "05d8d2f6-f851-49ff-a98b-2cbd96f6947e")
+	)
+	(pad "2" smd rect
+		(at -0.85 1.05)
+		(size 1.3 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4c4d8180-50b3-4783-a0c8-c84fbf93c8a8")
+	)
+	(pad "3" smd rect
+		(at 0.85 1.05)
+		(size 1.3 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "19c5e02b-5fe8-4bd1-8444-4cb1e3301a23")
+	)
+	(pad "4" smd rect
+		(at 0.85 -1.05)
+		(size 1.3 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6ebe1ad5-bdb9-45dc-be6e-83a1e9377851")
+	)
+	(model "${ROVESOCAMERASERVER}/lib/3D/EB2532YA08-25.000M_TR.stp"
+		(offset
+			(xyz 0 0 0.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP 7-2287906-0
-D Body Features: Connector & Keying Code Z | Body Material PA GF | PCB Retention Feature Plating Material Tin | Configuration Features: PCB Mount Orientation Edge | Number of Positions 1 | Contact Features: Mating Pin Diameter .51 MM | Contact Mating Area Plating Material Gold | Mating Pin Diameter .02 INCH | RF Connector Center Contact Plating Material Gold (Au) | Center Contact With | Contact Type Pin | Dimensions: Product Length .965 INCH | Connector Height .197 INCH | Product Width 7.5 MM | Connector Heig
-K
-F https://www.mouser.co.uk/datasheet/2/418/6/ENG_CD_2287906_H2-2045594.pdf
-$ENDCMP
-#
-#End Doc Library

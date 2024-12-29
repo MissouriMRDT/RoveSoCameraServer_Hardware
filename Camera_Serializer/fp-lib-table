@@ -1,5 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "7-2287906-0")(type "KiCad")(uri "${ROVESOCAMERA_SERVER_HARDWARE_DIR}/lib/Footprints/7-2287906-0.pretty")(options "")(descr ""))
   (lib (name "CameraServer_Footprints")(type "KiCad")(uri "C:/Users/Jesse Deuel/Documents/GitHub/MRDT/RoveSoCameraServer_Hardware/lib/Footprints/CameraServer_Footprints.pretty")(options "")(descr ""))
 )

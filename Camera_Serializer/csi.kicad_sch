@@ -2390,7 +2390,7 @@
 		)
 		(uuid "e5e3eddd-87eb-4c2e-b1d6-c00e85fe740a")
 	)
-	(hierarchical_label "CSI"
+	(hierarchical_label "CSI{CSI}"
 		(shape output)
 		(at 134.62 83.82 0)
 		(fields_autoplaced yes)
@@ -2402,7 +2402,7 @@
 		)
 		(uuid "7094e4fd-41da-4fd2-b9a6-ebbc1fa26bb5")
 	)
-	(hierarchical_label "I2C"
+	(hierarchical_label "I2C{I2C}"
 		(shape input)
 		(at 170.18 67.31 0)
 		(fields_autoplaced yes)

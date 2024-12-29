@@ -1,4 +1,4 @@
-(footprint "722879060"
+(footprint "7-2287906-0"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -6,7 +6,7 @@
 	(descr "7-2287906-0-2")
 	(tags "Connector")
 	(property "Reference" "J**"
-		(at 0.47 0 0)
+		(at 0 -6.6 0)
 		(layer "F.SilkS")
 		(uuid "a94acd69-2adf-44c3-9c32-43c0ec05b29f")
 		(effects
@@ -16,8 +16,8 @@
 			)
 		)
 	)
-	(property "Value" "722879060"
-		(at 0.47 0 0)
+	(property "Value" "7-2287906-0"
+		(at 0 -8.9 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "a8c68045-67b4-4994-ae87-93fbbed84ba0")
@@ -287,8 +287,21 @@
 		(layer "F.Fab")
 		(uuid "663e4ad1-c69e-4792-855f-166e2aa3ba6d")
 	)
+	(fp_text user "Board Edge"
+		(at -6.2 3.2 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "005b6b93-b143-4274-b7d5-8751717bd10f")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0.47 0 0)
+		(at 0 -11.8 0)
 		(layer "F.Fab")
 		(uuid "6b2c4b4e-257d-4656-8555-aaa2ff5fb92e")
 		(effects
@@ -336,9 +349,9 @@
 		(remove_unused_layers no)
 		(uuid "a5544fe9-3839-4754-b0d9-0d1650b6b7a5")
 	)
-	(model "../../3D/7-2287906-0.stp"
+	(model "${ROVESOCAMERASERVER}/lib/3D/7-2287906-0.stp"
 		(offset
-			(xyz -18.72999926 0 0.4999999925)
+			(xyz -18.729999 0 0.5)
 		)
 		(scale
 			(xyz 1 1 1)
