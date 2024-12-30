@@ -13,7 +13,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -5.08 31.242 0)
+				(at -1.27 35.56 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -31,7 +31,7 @@
 				)
 			)
 			(property "Footprint" "CameraServer_Footprints:F32Q-1A7H1-11022"
-				(at -0.254 36.322 0)
+				(at 0.508 38.862 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -59,7 +59,7 @@
 				)
 			)
 			(property "PARTREV" "D"
-				(at 0.254 32.258 0)
+				(at 4.064 33.782 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -69,7 +69,7 @@
 				)
 			)
 			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 34.29 0)
+				(at 0.762 36.83 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -79,7 +79,7 @@
 				)
 			)
 			(property "MAXIMUM_PACKAGE_HEIGHT" "2mm"
-				(at 0 40.64 0)
+				(at 0 43.688 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -89,7 +89,7 @@
 				)
 			)
 			(property "MANUFACTURER" "Amphenol"
-				(at -0.762 39.116 0)
+				(at 0 41.656 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -100,8 +100,8 @@
 			)
 			(symbol "F32Q-1A7H1-11022_0_0"
 				(rectangle
-					(start -5.08 -27.94)
-					(end 5.08 30.48)
+					(start -5.08 35.56)
+					(end 5.08 -27.94)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -502,6 +502,44 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "F32Q-1A7H1-11022_1_1"
+				(pin passive line
+					(at -10.16 30.48 0)
+					(length 5.08)
+					(name "SH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 33.02 0)
+					(length 5.08)
+					(name "SH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1451,6 +1489,18 @@
 		(uuid "b81bc650-d73f-40e1-9997-aff1ec1d169c")
 	)
 	(junction
+		(at 109.22 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c29e9caf-a04a-4144-84d0-d0beba1f249c")
+	)
+	(junction
+		(at 109.22 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0e1f1f8-75e9-4252-b441-98d327ea663c")
+	)
+	(junction
 		(at 232.41 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1583,6 +1633,16 @@
 			(type default)
 		)
 		(uuid "00ded21d-699f-4204-b588-5cceb55ee9ff")
+	)
+	(wire
+		(pts
+			(xy 102.87 125.73) (xy 109.22 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01df835b-5eba-4000-aafe-02fa7dc76671")
 	)
 	(wire
 		(pts
@@ -1756,7 +1816,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 124.46) (xy 109.22 123.19)
+			(xy 109.22 132.08) (xy 109.22 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1823,6 +1883,16 @@
 			(type default)
 		)
 		(uuid "82c766ae-3bae-4824-870b-e587b7105bc3")
+	)
+	(wire
+		(pts
+			(xy 109.22 125.73) (xy 109.22 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82cc076d-f405-4cd4-b7ab-444a925b82f6")
 	)
 	(wire
 		(pts
@@ -2074,6 +2144,16 @@
 		)
 		(uuid "d468428b-27aa-4283-be81-ab6a8208c562")
 	)
+	(wire
+		(pts
+			(xy 102.87 128.27) (xy 109.22 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dab58b8b-65d1-4741-9bbd-57dcb16e4eb4")
+	)
 	(bus
 		(pts
 			(xy 123.19 115.57) (xy 123.19 118.11)
@@ -2213,6 +2293,16 @@
 			(type default)
 		)
 		(uuid "fbd449d2-38ec-4ecb-89b9-35f1f43777de")
+	)
+	(wire
+		(pts
+			(xy 109.22 128.27) (xy 109.22 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcaba023-512a-480d-8281-86dd4e773b88")
 	)
 	(label "CAM_SDA"
 		(at 222.25 104.14 0)
@@ -2699,7 +2789,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 124.46 0)
+		(at 109.22 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2708,7 +2798,7 @@
 		(fields_autoplaced yes)
 		(uuid "72f45f20-2895-43a0-a641-4558e32017d1")
 		(property "Reference" "#PWR022"
-			(at 109.22 130.81 0)
+			(at 109.22 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,7 +2807,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 129.54 0)
+			(at 109.22 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2725,7 +2815,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 124.46 0)
+			(at 109.22 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2734,7 +2824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 124.46 0)
+			(at 109.22 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,7 +2833,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 124.46 0)
+			(at 109.22 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,6 +3079,12 @@
 		)
 		(pin "15"
 			(uuid "24eeb92c-ad29-42b7-9743-cfece0330a7c")
+		)
+		(pin "SH1"
+			(uuid "e064ab1a-415a-48a7-982c-5f9441efa672")
+		)
+		(pin "SH2"
+			(uuid "5e69bcf8-864e-42d8-b437-4cd48d4febd9")
 		)
 		(instances
 			(project ""
