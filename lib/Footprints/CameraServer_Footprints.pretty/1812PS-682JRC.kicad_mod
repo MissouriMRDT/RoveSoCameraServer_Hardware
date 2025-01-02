@@ -230,7 +230,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "1a658de8-8e21-4fe9-9116-af0f99073ebb")
 	)
 	(fp_line
@@ -240,7 +240,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "e8e3bb65-b6de-4b58-9f13-31c04546fd96")
 	)
 	(fp_line
@@ -250,7 +250,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "ec75bed4-f7ff-4672-9241-d8af83d8d02e")
 	)
 	(fp_line
@@ -260,7 +260,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "f9b834c6-1861-4110-bcec-248d086ac9a8")
 	)
 	(fp_text user "${REFERENCE}"
