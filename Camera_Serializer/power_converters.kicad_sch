@@ -4697,16 +4697,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 57.15) (xy 22.86 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5e7ad3f-9e02-4055-9152-1676e0026a13")
-	)
-	(wire
-		(pts
 			(xy 92.71 160.02) (xy 92.71 162.56)
 		)
 		(stroke
@@ -6164,71 +6154,6 @@
 			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/aa1b48ff-d467-42b0-a250-5333a1eca37c"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 22.86 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30fa3031-eff7-43c4-be34-55b8a70e9388")
-		(property "Reference" "TP6"
-			(at 19.558 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 19.558 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 22.86 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 22.86 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6544a605-9397-4e30-a6b8-2fedabd5ad36")
-		)
-		(instances
-			(project "Camera_serializer"
-				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/aa1b48ff-d467-42b0-a250-5333a1eca37c"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -7797,7 +7722,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 40.64 57.15 90)
+		(at 40.64 57.15 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
