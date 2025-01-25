@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "CameraServer_Symbols")(type "KiCad")(uri "C:/Users/Jesse Deuel/Documents/GitHub/MRDT/RoveSoCameraServer_Hardware/lib/Symbols/CameraServer_Symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "CameraServer_Symbols")(type "KiCad")(uri "C:/GitHub/MRDT/Electrical/RoveSoCameraServer_Hardware/lib/Symbols/CameraServer_Symbols.kicad_sym")(options "")(descr ""))
 )

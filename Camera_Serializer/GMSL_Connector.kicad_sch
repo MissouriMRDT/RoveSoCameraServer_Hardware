@@ -1491,7 +1491,6 @@
 	(hierarchical_label "SIOP_COAX"
 		(shape output)
 		(at 113.03 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
