@@ -5120,7 +5120,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 166.37) (xy 66.04 168.91)
+			(xy 66.04 165.1) (xy 66.04 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5765,7 +5765,7 @@
 	)
 	(symbol
 		(lib_id "CameraServer_Symbols:TPS62131RGTT")
-		(at 66.04 142.24 0)
+		(at 66.04 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5774,7 +5774,7 @@
 		(fields_autoplaced yes)
 		(uuid "17ca3b87-f840-4085-9ec8-8915fa8383bb")
 		(property "Reference" "U4"
-			(at 66.04 118.11 0)
+			(at 66.04 116.84 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5782,7 +5782,7 @@
 			)
 		)
 		(property "Value" "TPS62131RGTT"
-			(at 66.04 120.65 0)
+			(at 66.04 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5790,7 +5790,7 @@
 			)
 		)
 		(property "Footprint" "CameraServer_Footprints:TPS62133RGTR"
-			(at 66.04 142.24 0)
+			(at 66.04 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5799,7 +5799,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62131.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1735498025028"
-			(at 66.04 142.24 0)
+			(at 66.04 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,7 +5808,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 142.24 0)
+			(at 66.04 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
