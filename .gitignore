@@ -29,3 +29,10 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Manufacturing
+gerbs
+*.zip
+*.gbr
+*.drl
+*.gbrjob
