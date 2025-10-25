@@ -1,0 +1,9 @@
+LTspice 24.1.9 for Windows
+Circuit: C:\GitHub\MRDT\Electrical\RoveSoCameraServer_Hardware\simulation\Draft1.net
+Start Time: Wed Sep 17 16:14:07 2025
+C:\GitHub\MRDT\Electrical\RoveSoCameraServer_Hardware\simulation\Draft1.net(12): This sub-circuit name is not defined.
+X§U3 N005 N001 +10V -1V N002 LT1028
+                            ^^^^^^^
+C:\GitHub\MRDT\Electrical\RoveSoCameraServer_Hardware\simulation\Draft1.net(13): This sub-circuit name is not defined.
+X§U1 N003 vout +10V -1V vout LT1028
+                            ^^^^^^^
