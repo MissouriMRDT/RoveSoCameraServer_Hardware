@@ -1,0 +1,10 @@
+LTspice 24.1.9 for Windows
+Circuit: C:\GitHub\MRDT\Electrical\RoveSoCameraServer_Hardware\simulation\5V_Buck.net
+Start Time: Mon Nov  3 21:13:56 2025
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Changing Tseed to 1e-08
