@@ -8,3 +8,11 @@ temp = 27
 method = modified trap
 Direct Newton iteration for .op point succeeded.
 Changing Tseed to 1e-08
+
+Simulation stopped by user.
+Total elapsed time: 1705.990 seconds.
+
+Files loaded:
+C:\GitHub\MRDT\Electrical\RoveSoCameraServer_Hardware\simulation\5V_Buck.net
+C:\GitHub\MRDT\Electrical\RoveSoCameraServer_Hardware\simulation\TPS62133_PSPICE_TRANS\TPS62133_TRANS.lib
+

@@ -36,3 +36,6 @@ gerbs
 *.gbr
 *.drl
 *.gbrjob
+
+# LTSpice Simulation output files
+*.raw
