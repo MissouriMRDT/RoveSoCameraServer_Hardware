@@ -4311,7 +4311,7 @@
 			(uuid "fb21b272-6740-441f-a553-e95575c74fde")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/0a3de32e-46b4-48e6-995c-cb183fcb90bf"
 					(reference "C10")
 					(unit 1)
@@ -4581,7 +4581,7 @@
 			(uuid "38081099-a700-4310-91fc-447684631a53")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/0a3de32e-46b4-48e6-995c-cb183fcb90bf"
 					(reference "TP1")
 					(unit 1)
@@ -4707,7 +4707,7 @@
 			(uuid "d9c89465-a0c4-406b-8264-a60dc7e1792f")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/0a3de32e-46b4-48e6-995c-cb183fcb90bf"
 					(reference "Y1")
 					(unit 1)
@@ -4910,7 +4910,7 @@
 			(uuid "2583818b-052e-4011-aa88-89a156340f46")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/0a3de32e-46b4-48e6-995c-cb183fcb90bf"
 					(reference "R2")
 					(unit 1)
@@ -4977,7 +4977,7 @@
 			(uuid "0fcd5ceb-448e-4380-bf64-fe83c652cbaf")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/0a3de32e-46b4-48e6-995c-cb183fcb90bf"
 					(reference "C17")
 					(unit 1)
@@ -5043,7 +5043,7 @@
 			(uuid "4da58606-87f1-4352-9a52-ff1eb2d00092")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/0a3de32e-46b4-48e6-995c-cb183fcb90bf"
 					(reference "#PWR02")
 					(unit 1)
@@ -5113,7 +5113,7 @@
 			(uuid "750d57bf-fd6f-463b-ab2c-6287d569b708")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/0a3de32e-46b4-48e6-995c-cb183fcb90bf"
 					(reference "R8")
 					(unit 1)
@@ -5245,7 +5245,7 @@
 			(uuid "d4f3b9a1-fdf8-4d9a-b332-d85217bb8e09")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/0a3de32e-46b4-48e6-995c-cb183fcb90bf"
 					(reference "#PWR03")
 					(unit 1)
@@ -5866,7 +5866,7 @@
 			(uuid "76ca8b91-8574-46c0-a3ef-1ab31497fccd")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/0a3de32e-46b4-48e6-995c-cb183fcb90bf"
 					(reference "C15")
 					(unit 1)
@@ -5932,7 +5932,7 @@
 			(uuid "a8af2a00-d14e-4bae-9b83-811aa1b482b0")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/0a3de32e-46b4-48e6-995c-cb183fcb90bf"
 					(reference "#PWR05")
 					(unit 1)
@@ -6131,7 +6131,7 @@
 			(uuid "4917d455-8462-4d21-ab08-e8110d5a2f53")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/0a3de32e-46b4-48e6-995c-cb183fcb90bf"
 					(reference "#PWR08")
 					(unit 1)
@@ -6498,7 +6498,7 @@
 			(uuid "b78d7eca-90a7-408a-a5eb-f58ce2bb7945")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/0a3de32e-46b4-48e6-995c-cb183fcb90bf"
 					(reference "U1")
 					(unit 1)
@@ -6565,7 +6565,7 @@
 			(uuid "e02776c8-547e-4ed1-84c8-df3b6fad012a")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/0a3de32e-46b4-48e6-995c-cb183fcb90bf"
 					(reference "R1")
 					(unit 1)
@@ -6635,7 +6635,7 @@
 			(uuid "c4d18325-1346-49a3-9b03-4f439858c028")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/0a3de32e-46b4-48e6-995c-cb183fcb90bf"
 					(reference "C1")
 					(unit 1)
@@ -6704,7 +6704,7 @@
 			(uuid "0b256595-3866-4f30-ab41-48006624897a")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/0a3de32e-46b4-48e6-995c-cb183fcb90bf"
 					(reference "C14")
 					(unit 1)
@@ -7444,7 +7444,7 @@
 			(uuid "317eb11a-3627-429b-b5b6-41f49c14562a")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/0a3de32e-46b4-48e6-995c-cb183fcb90bf"
 					(reference "#PWR01")
 					(unit 1)

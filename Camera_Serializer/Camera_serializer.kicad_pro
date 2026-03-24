@@ -467,6 +467,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -507,20 +508,29 @@
       {
         "bus_width": 12,
         "clearance": 0.1,
-        "diff_pair_gap": 0.185,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.18,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.123952,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "CSI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.18,
+        "track_width": 0.123952,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.1016,
+        "name": "GMSL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.156464,
+        "via_diameter": 0.635,
+        "via_drill": 0.3048
       }
     ],
     "meta": {
@@ -530,8 +540,12 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
+        "netclass": "GMSL",
+        "pattern": "**_COAX"
+      },
+      {
         "netclass": "CSI",
-        "pattern": "**CSI.*"
+        "pattern": "**csi*"
       }
     ]
   },
@@ -540,18 +554,18 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../gerbs/",
+      "plot": "Camera_serializer_gerbs/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
-      "vrml": "Camera_serializer.wrl"
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "Camera_serializer.csv",
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

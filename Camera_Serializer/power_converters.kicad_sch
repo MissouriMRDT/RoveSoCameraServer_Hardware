@@ -3447,6 +3447,12 @@
 		(uuid "54029958-4bb7-4910-8298-d2d85ad532ef")
 	)
 	(junction
+		(at 193.04 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5642c2e0-8a10-44ef-91b2-afe2e9f67975")
+	)
+	(junction
 		(at 92.71 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3607,12 +3613,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8737c9a-77c1-46f0-b929-a0bb2fe9b548")
-	)
-	(junction
-		(at 193.04 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9aa8478-fa1b-429a-b770-f7072e592b6b")
 	)
 	(junction
 		(at 92.71 152.4)
@@ -3910,6 +3910,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 46.99) (xy 193.04 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2119315a-3c67-4f2e-9bef-202f87450306")
+	)
+	(wire
+		(pts
 			(xy 101.6 39.37) (xy 101.6 43.18)
 		)
 		(stroke
@@ -3997,16 +4007,6 @@
 			(type default)
 		)
 		(uuid "2fa0c04e-97df-41c3-9592-e6d22709a6ab")
-	)
-	(wire
-		(pts
-			(xy 193.04 49.53) (xy 193.04 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3053492f-468a-479a-9c8e-59d4cbd8a9a8")
 	)
 	(wire
 		(pts
@@ -4470,6 +4470,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 49.53) (xy 193.04 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "719fef09-42c3-4f60-8fac-443368c6c1cd")
+	)
+	(wire
+		(pts
 			(xy 87.63 44.45) (xy 87.63 41.91)
 		)
 		(stroke
@@ -4630,6 +4640,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 49.53) (xy 195.58 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2591e1-b799-4c9b-bd36-005fd3da9137")
+	)
+	(wire
+		(pts
 			(xy 86.36 154.94) (xy 92.71 154.94)
 		)
 		(stroke
@@ -4707,6 +4727,16 @@
 			(type default)
 		)
 		(uuid "96190fdf-e8e4-4804-a436-cfbc280582b7")
+	)
+	(wire
+		(pts
+			(xy 195.58 52.07) (xy 193.04 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9705b1df-6faa-4516-8f63-03eb550e99e5")
 	)
 	(wire
 		(pts
@@ -4830,16 +4860,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 46.99) (xy 193.04 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b001a7a6-dd84-4c7b-820e-77372235d158")
-	)
-	(wire
-		(pts
 			(xy 144.78 124.46) (xy 144.78 127)
 		)
 		(stroke
@@ -4897,16 +4917,6 @@
 			(type default)
 		)
 		(uuid "b691aa42-2d4b-48a4-a4eb-e1bb2b550d89")
-	)
-	(wire
-		(pts
-			(xy 193.04 49.53) (xy 195.58 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b738c6cb-2bcc-473f-ab3f-a79ba5cd266b")
 	)
 	(wire
 		(pts
@@ -5240,16 +5250,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 52.07) (xy 195.58 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eabae07f-63c6-48fe-bb4e-1e1d104b9334")
-	)
-	(wire
-		(pts
 			(xy 101.6 39.37) (xy 107.95 39.37)
 		)
 		(stroke
@@ -5478,7 +5478,7 @@
 			(uuid "9be02933-6445-4c3d-a8ff-569d33c502f5")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/aa1b48ff-d467-42b0-a250-5333a1eca37c"
 					(reference "D2")
 					(unit 1)
@@ -5755,7 +5755,7 @@
 			(uuid "031eb1e1-6738-4554-bfa2-9f1fa0f0a661")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/aa1b48ff-d467-42b0-a250-5333a1eca37c"
 					(reference "D3")
 					(unit 1)
@@ -5950,7 +5950,7 @@
 			(uuid "08d3aa36-5749-48c0-aea9-b7b8e9365da2")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/aa1b48ff-d467-42b0-a250-5333a1eca37c"
 					(reference "U4")
 					(unit 1)
@@ -6760,7 +6760,7 @@
 			(uuid "7dedb793-8871-489e-ab6f-b7a399ce0d13")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/aa1b48ff-d467-42b0-a250-5333a1eca37c"
 					(reference "Q1")
 					(unit 1)
@@ -6963,7 +6963,7 @@
 			(uuid "567cd76f-2fe8-4a90-836c-6b83996644cb")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/aa1b48ff-d467-42b0-a250-5333a1eca37c"
 					(reference "C20")
 					(unit 1)
@@ -7098,7 +7098,7 @@
 			(uuid "47a6b923-8ba6-4ea7-a174-9638d139e699")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/aa1b48ff-d467-42b0-a250-5333a1eca37c"
 					(reference "L4")
 					(unit 1)
@@ -7445,7 +7445,7 @@
 			(uuid "8cc784f7-177a-4de1-817d-c34dbcacbb21")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/aa1b48ff-d467-42b0-a250-5333a1eca37c"
 					(reference "U3")
 					(unit 1)
@@ -7709,7 +7709,7 @@
 			(uuid "e1d66969-05f7-4eb0-bfb8-bdee55088773")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/aa1b48ff-d467-42b0-a250-5333a1eca37c"
 					(reference "#PWR032")
 					(unit 1)
@@ -7845,7 +7845,7 @@
 			(uuid "34e8a341-bcea-4189-9019-94a99faa9192")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/aa1b48ff-d467-42b0-a250-5333a1eca37c"
 					(reference "R20")
 					(unit 1)
@@ -8584,7 +8584,7 @@
 			(uuid "9b9c8d0e-37c4-4d9d-85c6-cec8e9ca662d")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/aa1b48ff-d467-42b0-a250-5333a1eca37c"
 					(reference "TP5")
 					(unit 1)
@@ -8662,7 +8662,7 @@
 			(uuid "934b97a9-ad74-4809-b26e-e7900fcf6663")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/aa1b48ff-d467-42b0-a250-5333a1eca37c"
 					(reference "U5")
 					(unit 1)
@@ -8732,7 +8732,7 @@
 			(uuid "b827bc43-5fe5-40ea-8a74-7fdf15a56248")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/aa1b48ff-d467-42b0-a250-5333a1eca37c"
 					(reference "C27")
 					(unit 1)
@@ -8933,7 +8933,7 @@
 			(uuid "4a63c593-be7c-4ede-a473-a85c55feebdd")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/aa1b48ff-d467-42b0-a250-5333a1eca37c"
 					(reference "R21")
 					(unit 1)
@@ -9084,7 +9084,7 @@
 			(uuid "eb18c298-8dce-47cb-b706-d05ff3462b8e")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/aa1b48ff-d467-42b0-a250-5333a1eca37c"
 					(reference "U6")
 					(unit 1)
@@ -9484,7 +9484,7 @@
 			(uuid "2974f347-01b4-4143-bd8f-b4dddaafc7db")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/aa1b48ff-d467-42b0-a250-5333a1eca37c"
 					(reference "#PWR042")
 					(unit 1)
@@ -9621,7 +9621,7 @@
 			(uuid "e020337b-5842-4d86-9803-e22ab76cfe80")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/aa1b48ff-d467-42b0-a250-5333a1eca37c"
 					(reference "R18")
 					(unit 1)
@@ -9951,7 +9951,7 @@
 			(uuid "0d8c30b2-7f03-47dd-b8ae-b0be9a18c58c")
 		)
 		(instances
-			(project ""
+			(project "Camera_serializer"
 				(path "/ebaf1619-da94-4b8e-b57a-a386470e666e/aa1b48ff-d467-42b0-a250-5333a1eca37c"
 					(reference "#PWR034")
 					(unit 1)
